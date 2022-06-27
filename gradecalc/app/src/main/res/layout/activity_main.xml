@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/numOfStudentsTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:text="Total Number of Students"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.063"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/numOfStudentsET"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@+id/numOfStudentsTV"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/numOfStudentsTV"
+            app:layout_constraintTop_toBottomOf="@+id/numOfStudentsTV" />
+
+        <TextView
+            android:id="@+id/AstudentTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Students with A's"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.052"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/numOfStudentsET" />
+
+        <EditText
+            android:id="@+id/AstudentET"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@+id/AstudentTV"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/AstudentTV"
+            app:layout_constraintTop_toBottomOf="@+id/AstudentTV" />
+
+
+        <TextView
+            android:id="@+id/BstudentTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Students with B's"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.049"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/AstudentET" />
+
+        <EditText
+            android:id="@+id/BstudentET"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@+id/BstudentTV"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/BstudentTV"
+            app:layout_constraintTop_toBottomOf="@+id/BstudentTV" />
+
+        <TextView
+            android:id="@+id/CstudentTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Student with C's"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.047"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/BstudentET" />
+
+        <EditText
+            android:id="@+id/CstudentET"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@+id/CstudentTV"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/CstudentTV"
+            app:layout_constraintTop_toBottomOf="@+id/CstudentTV" />
+
+        <TextView
+            android:id="@+id/DstudentTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Students with D's"
+            app:layout_constraintEnd_toEndOf="@+id/CstudentET"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/CstudentET"
+            app:layout_constraintTop_toBottomOf="@+id/CstudentET" />
+
+        <EditText
+            android:id="@+id/DstudentET"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@+id/DstudentTV"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/DstudentTV"
+            app:layout_constraintTop_toBottomOf="@+id/DstudentTV" />
+
+        <TextView
+            android:id="@+id/FstudentTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Students with F's"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.047"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/DstudentET" />
+
+        <EditText
+            android:id="@+id/FstudentET"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@+id/FstudentTV"
+            app:layout_constraintHorizontal_bias="0.01"
+            app:layout_constraintStart_toStartOf="@+id/FstudentTV"
+            app:layout_constraintTop_toBottomOf="@+id/FstudentTV" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/calc"
+            android:layout_alignParentTop="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp">
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/calc"
+            android:layout_width="146dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="32dp"
+            android:onClick="pressToCalc"
+            android:text="Calculate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.041"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/FstudentET" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

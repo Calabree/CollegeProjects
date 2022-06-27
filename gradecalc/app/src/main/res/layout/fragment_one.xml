@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2980b9"
+    tools:context=".fragment_one">
+
+    <TextView
+        android:id="@+id/PercentofF_edit"
+        android:layout_width="162dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/hello_blank_fragment"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/PercentofD_edit"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/PercentofD_edit"
+        app:layout_constraintTop_toBottomOf="@+id/PercentofD_edit" />
+
+    <TextView
+        android:id="@+id/PercentofD"
+        android:layout_width="162dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="Percent of D Students: "
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/PercentofC"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/PercentofC"
+        app:layout_constraintTop_toBottomOf="@+id/PercentofC" />
+
+    <TextView
+        android:id="@+id/PercentofC_edit"
+        android:layout_width="162dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/hello_blank_fragment"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/PercentofB_edit"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/PercentofB_edit"
+        app:layout_constraintTop_toBottomOf="@+id/PercentofB_edit" />
+
+    <TextView
+        android:id="@+id/PercentofB"
+        android:layout_width="162dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Percent of B Students: "
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/PercentofA"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/PercentofA"
+        app:layout_constraintTop_toBottomOf="@+id/PercentofA" />
+
+    <TextView
+        android:id="@+id/PercentofA"
+        android:layout_width="162dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="Percent of A Students: "
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/PercentofA_edit"
+        android:layout_width="162dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/hello_blank_fragment"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.867"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/PercentofC"
+        android:layout_width="162dp"
+        android:layout_height="22dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Percent of C Students: "
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/PercentofB"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/PercentofB"
+        app:layout_constraintTop_toBottomOf="@+id/PercentofB" />
+
+    <TextView
+        android:id="@+id/PercentofD_edit"
+        android:layout_width="162dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="@string/hello_blank_fragment"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/PercentofC_edit"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/PercentofC_edit"
+        app:layout_constraintTop_toBottomOf="@+id/PercentofC_edit" />
+
+    <TextView
+        android:id="@+id/PercentofB_edit"
+        android:layout_width="162dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/hello_blank_fragment"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/PercentofA_edit"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/PercentofA_edit"
+        app:layout_constraintTop_toBottomOf="@+id/PercentofA_edit" />
+
+    <TextView
+        android:id="@+id/PercentofF"
+        android:layout_width="162dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Percent of F Students: "
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/PercentofD"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/PercentofD"
+        app:layout_constraintTop_toBottomOf="@+id/PercentofD" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="162dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="48dp"
+        android:text="Bar Chart"
+        app:layout_constraintEnd_toEndOf="@+id/PercentofF_edit"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="@+id/PercentofF"
+        app:layout_constraintTop_toBottomOf="@+id/PercentofF_edit" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

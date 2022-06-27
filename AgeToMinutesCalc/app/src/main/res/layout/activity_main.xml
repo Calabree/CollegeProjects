@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:padding="20sp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/calcYour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="CALCULATE YOUR"
+        android:textColor="@color/textColor"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.107" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/ageTextBackgroundColor"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="AGE"
+        android:textColor="@color/textColor"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/calcYour"
+        app:layout_constraintStart_toStartOf="@+id/calcYour"
+        app:layout_constraintTop_toBottomOf="@+id/calcYour" />
+
+    <TextView
+        android:id="@+id/inMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="In Minutes"
+        android:textColor="@color/textColor"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/age"
+        app:layout_constraintStart_toStartOf="@+id/age"
+        app:layout_constraintTop_toBottomOf="@+id/age" />
+
+    <Button
+        android:id="@+id/btnSelectDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:text="SELECT DATE"
+        android:textColor="@color/grey"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/inMinutes"
+        app:layout_constraintStart_toStartOf="@+id/inMinutes"
+        app:layout_constraintTop_toBottomOf="@+id/inMinutes" />
+
+    <TextView
+        android:id="@+id/selectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Selected Date"
+        android:textSize="18sp"
+        android:textColor="@color/lightGrey"
+        app:layout_constraintEnd_toEndOf="@+id/btnSelectDate"
+        app:layout_constraintStart_toStartOf="@+id/btnSelectDate"
+        app:layout_constraintTop_toBottomOf="@+id/btnSelectDate" />
+
+    <TextView
+        android:id="@+id/ageInMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Age in Minutes"
+        android:textColor="@color/lightGrey"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/selectedDate"
+        app:layout_constraintStart_toStartOf="@+id/selectedDate"
+        app:layout_constraintTop_toBottomOf="@+id/selectedDate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
